@@ -22,12 +22,23 @@
 <!-- fin header -->
         <section class="videoframe">
             <div id="square"></div>
-            <iframe  class="video" is="video" width="490" height="260" src="https://www.youtube.com/embed/PqYNIzv5bCM" frameborder="0" allowfullscreen></iframe>
+            <iframe  class="video" is="video" width="590" height="360" src="https://www.youtube.com/embed/PqYNIzv5bCM" frameborder="0" allowfullscreen></iframe>
         <h1>Les meilleurs pancakes </h1>
+        <p id="description">Les pancakes sont une option polyvalente pour le petit-déjeuner ou le brunch, et vous pouvez les personnaliser en ajoutant des pépites de chocolat, des myrtilles, des noix ou d'autres ingrédients à la pâte. Profitez de ces pancakes moelleux et délicieux pour un repas réconfortant !</p>
         </section>
 <!-- fin video -->
-
-        <secton class="yourphotos">
+<!-- infos recette -->
+<div id="bandeau">
+    <ul id="bandeauitem">
+        <li class="bandealist"><!--<img id="bandeauimg" src="/images/chef.png">--><p>1/5</p>Difficulté</li>
+        <li class="bandealist"><!--<img id="bandeauimg" src="/images/temps.png">--><p>15 min</p>Préparation</li>
+        <li class="bandealist"><!--<img id="bandeauimg" src="images/people.png">--><p>4 personnes</p>Quantité</li>
+        <li class="bandealist"><!--<img id="bandeauimg" src="/images/calories.png">--><p>200 kcal</p>Calories</li>
+        <img id="bandeauimg" src="/images/imprimante.png" alt="impression">
+    </ul>
+</div>
+<!-- fin infos recettes -->
+        <section class="yourphotos">
 <h2>Vos photos</h2>
 <div class="vosphotos">
     <img id="vosphotos" src="images\pancake1.jpg" alt="pancake pour">
@@ -45,38 +56,44 @@
     <img id="vosphotos" src="images\pancake4.jpg" alt="pancake pour">
     <h3></h3>
 </div>
-<p>Les pancakes sont une option polyvalente pour le petit-déjeuner ou le brunch, et vous pouvez les personnaliser en ajoutant des pépites de chocolat, des myrtilles, des noix ou d'autres ingrédients à la pâte. Profitez de ces pancakes moelleux et délicieux pour un repas réconfortant !</p>
-        </secton>
+        </section>
 
 <!-- fi youphotos -->
         <section class="ingredients">
 <div id="square2">
 <div id="textingredients">
 <h2>Ingrédients</h2>
+
 <h3>Ajoutés au panier</h3>
-<ul>
-    <li>Farine</li>
-    <li>Lait</li>
-    <li>Sucre</li>
+<ul id="ajoute">
+    <li><img class="imgingred" src="/images/farine.png" alt="farine">Farine</li>
+    <li><img class="imgingred" src="/images/lait.png" alt="lait">Lait</li>
+    <li><img class="imgingred" src="/images/sucre.png" alt="sucre">Sucre</li>
 </ul>
+
 <h3>A rajouter</h3>
-<ul>
-    <li>Levure</li>
-    <li>Oeuf</li>
-    <li>Beurre</li>
+<ul id="ajoute">
+    <li><img class="imgingred" src="/images/levure.png" alt="levure">Levure</li>
+    <li><img class="imgingred" src="/images/oeuf.png" alt="oeuf">Oeuf</li>
+    <li><img class="imgingred" src="/images/beurre.png" alt="beurre">Beurre</li>
 </ul>
 <h2>Matériel</h2>
-<ul>
+<div id="materiel"> 
+    <p>bol</p>
+    <p>fourchette</p>
+</div>
+<!-- <ul>
     <li>Bol</li>
     <li>Fouchette</li>
     <li>Poêle</li>
     <li>Verre de mesure</li>
     <li>Plaque de cuisson</li>
-</ul>
+</ul> -->
+</div>
 </div>
 </section>
 <!-- fin ingredients -->
-<h2>Recette</h2>
+<h2 id="recettetitle">Recette</h2>
         <section class="recipe">
             <div id="imageetape">
                 <!-- debut step1 -->
